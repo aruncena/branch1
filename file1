@@ -1,15 +1,1 @@
-This is my test file
-
-I am gonna merge this ti Master
-
-This is a 2nd mergr to master
-
-<<<<<<< HEAD
-This is a 3rd and 4th merge
-=======
-This is a 3rd merge
->>>>>>> master
-
-This is a 5th merge
-
-This is a 6th merge
+This is my file and it is going to be merged with Master.
