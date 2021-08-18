@@ -59,7 +59,18 @@
 	    <argument>argument1</argument>
 	  </arguments>
 	</configuration>
-      </plugin>
+        </plugin>
+      <!--war file plugin -->	
+	<plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+        <source>1.7</source>
+        <target>1.7</target>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+        </plugin>
+      <!--end of war plugin --> 
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-shade-plugin</artifactId>
