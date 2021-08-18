@@ -8,7 +8,6 @@
     <artifactId>myapp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>myapp</name>
-    <artifactId>myapp</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
