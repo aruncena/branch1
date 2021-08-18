@@ -13,10 +13,10 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-                        <plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.0.0</version>
-</plugin>
+    <plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.0.0</version>
+    </plugin>
     </properties>
      
 </project>
