@@ -6,10 +6,10 @@
 
   <groupId>org.test.com</groupId>
   <artifactId>newapp</artifactId>
-  <version>hello</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
-  <name>newapp Maven Webapp</name>
+  <name>newappweb</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
