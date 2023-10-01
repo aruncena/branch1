@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 1
+  replicas: 2
   strategy:
     rollingUpdate:
       maxSurge: 25%
@@ -31,7 +31,7 @@ spec:
                 - master 
       containers:
       - name: mynginx
-        image: nginx:latest
+        image: httpd:latest
         imagePullPolicy: IfNotPresent
         resources:
           requests:
